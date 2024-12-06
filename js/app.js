@@ -10,15 +10,15 @@ const lightText = document.getElementById('lightText')
 let bgColor = document.getElementById('bgColor')
 const bgWhite = bgColor.style.backgroundColor = "white";
 const bgBlack = bgColor.style.backgroundColor = "black";
-let isLightOn = true
+let isLightOn = false
 
 console.log(isLightOn);
 
 
-if (isLightOn = true) {
-    let bgColor = bgWhite
-} else {
+if (isLightOn = false) {
     let bgColor = bgBlack
+} else {
+    let bgColor = bgWhite
 }
 
 function changeLight() {
